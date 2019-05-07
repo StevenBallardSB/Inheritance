@@ -8,7 +8,7 @@ public class Document {
     
     //The no-arg constructor that sets the field text to 'This space is intentionaly left blank.'
     public Document(){
-        System.out.println("This space is intentionaly left blank.");
+        text = "This space is intentionaly left blank.";
     }
     //The constructor that takes a parameter and sets the field to that.
     public Document(String text){
